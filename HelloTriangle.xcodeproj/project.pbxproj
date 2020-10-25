@@ -13,6 +13,7 @@
 		A6C45CC12545A55E00A55C76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6C45CBF2545A55E00A55C76 /* Main.storyboard */; };
 		A6C45CC32545A56500A55C76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6C45CC22545A56500A55C76 /* Assets.xcassets */; };
 		A6C45CC62545A56500A55C76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6C45CC42545A56500A55C76 /* LaunchScreen.storyboard */; };
+		A6C45CD12545AF0500A55C76 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = A6C45CD02545AF0500A55C76 /* Shaders.metal */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A6C45CC22545A56500A55C76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A6C45CC52545A56500A55C76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A6C45CC72545A56500A55C76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6C45CD02545AF0500A55C76 /* Shaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				A6C45CC22545A56500A55C76 /* Assets.xcassets */,
 				A6C45CC42545A56500A55C76 /* LaunchScreen.storyboard */,
 				A6C45CC72545A56500A55C76 /* Info.plist */,
+				A6C45CD02545AF0500A55C76 /* Shaders.metal */,
 			);
 			path = HelloTriangle;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6C45CD12545AF0500A55C76 /* Shaders.metal in Sources */,
 				A6C45CBE2545A55E00A55C76 /* ViewController.swift in Sources */,
 				A6C45CBA2545A55E00A55C76 /* AppDelegate.swift in Sources */,
 				A6C45CBC2545A55E00A55C76 /* SceneDelegate.swift in Sources */,

@@ -41,7 +41,6 @@ class ViewController: UIViewController {
     func setVertexBuffer() {
         let dataSize = vertexData.count * MemoryLayout.size(ofValue: vertexData[0])
         vertexBuffer = device.makeBuffer(bytes: vertexData, length: dataSize, options: .storageModePrivate)
-        
     }
 
 
